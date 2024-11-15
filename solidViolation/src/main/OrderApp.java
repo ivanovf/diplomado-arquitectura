@@ -13,11 +13,11 @@ public class OrderApp {
         // Guardar la orden en la base de datos
         DatabaseMysql database = new DatabaseMysql();
         OrderRepository orderRepository = new OrderRepository(database);
-        OrderRepository.saveOrder(order);
+        orderRepository.saveOrder(order);
 
         // Generar y mostrar el reporte de la orden
   	OrderReport orderReport = new OrderReport();
-        String report = OrderReport.generateReport(order);
+        String report = orderReport.generateReport(order);
         System.out.println(report);
     }
 }

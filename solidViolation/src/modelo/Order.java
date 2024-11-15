@@ -1,7 +1,5 @@
 package modelo;
 
-import bd.DatabaseMysql;
-
 public class Order {
 
     private String orderId;

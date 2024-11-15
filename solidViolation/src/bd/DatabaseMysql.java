@@ -1,5 +1,4 @@
 package bd;
-import bd.Database
 
 public class DatabaseMysql implements Database {
 
