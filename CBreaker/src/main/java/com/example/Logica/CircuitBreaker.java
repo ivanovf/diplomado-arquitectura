@@ -1,4 +1,4 @@
-package com.example.Logica;
+package CBreaker.src.main.java.com.example.Logica;
 
 public class CircuitBreaker {
 
